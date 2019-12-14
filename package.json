@@ -1,0 +1,30 @@
+{
+  "name": "cra-template-icloudsreactjs",
+  "version": "1.0.3",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "jest",
+    "storybook",
+    "rocketseat"
+  ],
+  "description": "The base template for Create React App with iClouds Sistemas Web boilerplate.",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iclouds/reactjs-boilerplate.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/iclouds/reactjs-boilerplate/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "author": "Efraim Andrade"
+}
