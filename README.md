@@ -12,6 +12,10 @@ Caso não seja utilize o comando abaixo para atualiza-lo
 
 `npm i -g create-react-app`
 
+Para instalar como um template do Create React App
+
+`create-react-app <nome_do_projeto> --template icloudsreactjs`
+
 ---
 
 Instalar dependencias
