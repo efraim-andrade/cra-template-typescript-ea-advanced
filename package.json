@@ -1,6 +1,6 @@
 {
   "name": "cra-template-icloudsreactjs",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "keywords": [
     "react",
     "create-react-app",
@@ -13,14 +13,14 @@
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iclouds/reactjs-boilerplate.git"
+    "url": "https://github.com/iclouds/cra-template-icloudsreactjs.git"
   },
   "license": "MIT",
   "engines": {
     "node": ">=8"
   },
   "bugs": {
-    "url": "https://github.com/iclouds/reactjs-boilerplate/issues"
+    "url": "https://github.com/iclouds/cra-template-icloudsreactjs/issues"
   },
   "files": [
     "template",

@@ -1,6 +1,8 @@
+![iClouds Logo](logo.svg)
+
 # iClouds ReactJS Boilerplate
 
-Boilerplate feito para acelerar a inicialização de um projeto feito em ReactJS com toda a estrutura de pastas padrão utilizada na iClouds e com ambiente de teste e documentação configurados.
+Boilerplate feito para acelerar a inicialização de um projeto feito em ReactJS com toda a estrutura de pastas padrão utilizada na iClouds Sistemas Web e com ambiente de teste e documentação configurados.
 
 ## Projeto
 
