@@ -1,6 +1,6 @@
 # React Typescript Boilerplate
 
-Boilerplate feito para acelerar a inicialização de um projeto feito em ReactJS + Typescript com toda a estrutura de pastas padrão e com ambiente de teste e documentação configurados.
+Boilerplate feito para acelerar a inicialização de um projeto feito em ReactJS + Typescript + Redux com toda a estrutura de pastas padrão e com ambiente de teste e documentação configurados.
 
 ## Projeto
 
