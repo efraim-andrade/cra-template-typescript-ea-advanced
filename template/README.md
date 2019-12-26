@@ -1,8 +1,22 @@
-# iClouds ReactJS Boilerplate
+# React Typescript Boilerplate
 
-Boilerplate feito para acelerar a inicialização de um projeto feito em ReactJS com toda a estrutura de pastas padrão utilizada na iClouds e com ambiente de teste e documentação configurados.
+Boilerplate feito para acelerar a inicialização de um projeto feito em ReactJS + Typescript com toda a estrutura de pastas padrão e com ambiente de teste e documentação configurados.
 
 ## Projeto
+
+Certifique-se que a versão do seu create-react-app é >=3.3.0
+
+`create-react-app --version`
+
+Caso não seja utilize o comando abaixo para atualiza-lo
+
+`npm i -g create-react-app`
+
+Para instalar como um template do Create React App
+
+`create-react-app <nome_do_projeto> --template typescript-ea`
+
+---
 
 Instalar dependencias
 

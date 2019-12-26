@@ -1,26 +1,27 @@
 {
-  "name": "cra-template-icloudsreactjs",
-  "version": "1.0.6",
+  "name": "cra-template-typescript-ea",
+  "version": "1.0.0",
   "keywords": [
     "react",
     "create-react-app",
     "template",
     "jest",
     "storybook",
-    "rocketseat"
+    "rocketseat",
+    "typescript"
   ],
-  "description": "The base template for Create React App with iClouds Sistemas Web boilerplate.",
+  "description": "The base template for Create React App with Typescript boilerplate.",
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iclouds/cra-template-icloudsreactjs.git"
+    "url": "https://github.com/efraim-andrade/cra-template-typescript-ea.git"
   },
   "license": "MIT",
   "engines": {
     "node": ">=8"
   },
   "bugs": {
-    "url": "https://github.com/iclouds/cra-template-icloudsreactjs/issues"
+    "url": "https://github.com/efraim-andrade/cra-template-typescript-ea/issues"
   },
   "files": [
     "template",

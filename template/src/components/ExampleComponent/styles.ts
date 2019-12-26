@@ -8,9 +8,10 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-  background: ${props => props.color};
+  background: ${props => (props.color ? props.color : '#45f')};
 
   > h1 {
     color: #fff;
+    font-size: 48px;
   }
 `;
