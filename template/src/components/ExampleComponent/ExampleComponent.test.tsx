@@ -4,12 +4,6 @@ import { render } from '@testing-library/react';
 import ExampleComponent from './index';
 
 describe('Components - ExampleComponent', () => {
-  it('should be able to render component', () => {
-    const { container } = render(<ExampleComponent title="titulo" />);
-
-    expect(container).toMatchSnapshot();
-  });
-
   it('should be able to render the title', () => {
     const title = 'Meu Titulo';
 
