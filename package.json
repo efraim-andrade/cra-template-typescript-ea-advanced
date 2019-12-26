@@ -1,6 +1,6 @@
 {
   "name": "cra-template-typescript-ea-advanced",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "keywords": [
     "react",
     "create-react-app",
@@ -17,14 +17,14 @@
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/efraim-andrade/cra-template-typescript-ea.git"
+    "url": "https://github.com/efraim-andrade/cra-template-typescript-ea-advanced.git"
   },
   "license": "MIT",
   "engines": {
     "node": ">=8"
   },
   "bugs": {
-    "url": "https://github.com/efraim-andrade/cra-template-typescript-ea/issues"
+    "url": "https://github.com/efraim-andrade/cra-template-typescript-ea-advanced/issues"
   },
   "files": [
     "template",

@@ -6,7 +6,7 @@ module.exports = {
     es6: true,
     jest: true,
   },
-  extends: ['react-app', 'plugin:@typescript-eslint/recommended', 'airbnb'],
+  extends: ['plugin:@typescript-eslint/recommended', 'airbnb'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
