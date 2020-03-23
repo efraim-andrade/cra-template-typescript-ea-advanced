@@ -1,12 +1,10 @@
-const path = require('path');
-
 module.exports = {
   env: {
     browser: true,
     es6: true,
     jest: true,
   },
-  extends: ['plugin:@typescript-eslint/recommended', 'airbnb'],
+  extends: ['plugin:@typescript-eslint/recommended', 'airbnb', 'prettier', 'prettier/react'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -29,6 +27,7 @@ module.exports = {
     'import-helpers',
   ],
   rules: {
+    'prettier/prettier': 'error',
     'import-helpers/order-imports': [
       'warn',
       {
@@ -51,9 +50,6 @@ module.exports = {
     'import/extensions': 'off',
     'arrow-parens': 'off',
     'import/no-extraneous-dependencies': 'off',
-    'prettier/prettier': 'error',
-    'implicit-arrow-linebreak': 'off',
-    'comma-dangle': 'off',
   },
   settings: {
     'import/parsers': {
