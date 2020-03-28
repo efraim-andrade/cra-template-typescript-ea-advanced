@@ -14,7 +14,7 @@ Caso não seja utilize o comando abaixo para atualiza-lo
 
 Para instalar como um template do Create React App
 
-`create-react-app <nome_do_projeto> --template typescript-ea`
+`create-react-app <nome_do_projeto> --template typescript-ea-advanced`
 
 ---
 
