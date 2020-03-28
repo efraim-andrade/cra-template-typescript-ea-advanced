@@ -45,3 +45,22 @@ Verificar o quanto a aplicação foi testada
 Iniciar a documentação
 
 `$ yarn storybook`
+
+## Linters
+
+Para funcionar os linters de Javascript(ESLint) e de CSS(Stylelint) necessário instalar as extenções do vscode:
+
+- [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+
+E para ativar as formações na hora de salvar no vscode CTRL + SHIFT + P para abrir a palleta de comandos e escrever settings.json após dar um enter adicione essas duas configurações no arquivo:
+
+```json
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
+```

@@ -53,7 +53,10 @@
     "craco-plugin-react-hot-reload": "latest",
     "react-hot-loader": "latest",
     "@hot-loader/react-dom": "latest",
-    "@types/node": "latest"
+    "@types/node": "latest",
+    "stylelint": "latest",
+    "stylelint-config-idiomatic-order": "latest",
+    "stylelint-prettier": "latest"
   },
   "scripts": {
     "start": "craco start",

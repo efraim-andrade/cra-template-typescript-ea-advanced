@@ -1,0 +1,124 @@
+{
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "prettier/prettier": true,
+    "rule-empty-line-before": "always",
+    "order/properties-order": [
+      [
+        {
+          "emptyLineBefore": "always",
+          "order": "flexible",
+          "properties": [
+            "position",
+            "top",
+            "right",
+            "bottom",
+            "left",
+            "z-index"
+          ]
+        },
+        {
+          "emptyLineBefore": "always",
+          "order": "flexible",
+          "properties": [
+            "box-sizing",
+            "float",
+            "width",
+            "height",
+            "max-width",
+            "max-height",
+            "min-width",
+            "min-height",
+            "padding",
+            "padding-top",
+            "padding-right",
+            "padding-bottom",
+            "padding-left",
+            "margin",
+            "margin-top",
+            "margin-right",
+            "margin-bottom",
+            "margin-left",
+            "margin-collapse",
+            "margin-top-collapse",
+            "margin-right-collapse",
+            "margin-bottom-collapse",
+            "margin-left-collapse",
+            "overflow",
+            "overflow-x",
+            "overflow-y",
+            "clip",
+            "clear"
+          ]
+        },
+        {
+          "emptyLineBefore": "always",
+          "order": "flexible",
+          "properties": [
+            "display",
+            "flex-flow",
+            "flex-direction",
+            "flex-wrap",
+            "justify-content",
+            "align-items",
+            "align-content",
+            "order",
+            "flex",
+            "flex-grow",
+            "flex-shrink",
+            "flex-basis",
+            "align-self"
+          ]
+        },
+        {
+          "emptyLineBefore": "always",
+          "order": "flexible",
+          "properties": [
+            "background",
+            "background-attachment",
+            "background-color",
+            "background-image",
+            "background-position",
+            "background-repeat",
+            "color",
+            "cursor",
+            "content",
+            "font",
+            "font-family",
+            "font-size",
+            "font-variant",
+            "font-weight",
+            "font-style",
+            "letter-spacing",
+            "line-height",
+            "list-style",
+            "list-style-image",
+            "list-style-position",
+            "list-style-type",
+            "page-break-after",
+            "page-break-before",
+            "stroke-dasharray",
+            "stroke-dashoffset",
+            "stroke-width",
+            "text-align",
+            "text-decoration",
+            "text-indent",
+            "text-transform",
+            "text-overflow",
+            "text-justify",
+            "visibility",
+            "opacity",
+            "white-space",
+            "word-break",
+            "word-spacing",
+            "word-wrap"
+          ]
+        }
+      ],
+      { "unspecified": "bottom" }
+    ]
+  },
+  "extends": ["stylelint-config-idiomatic-order"],
+  "processors": [],
+  "syntax": "scss"
+}
