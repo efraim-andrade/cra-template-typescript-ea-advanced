@@ -56,7 +56,10 @@
     "@types/node": "latest",
     "stylelint": "latest",
     "stylelint-config-idiomatic-order": "latest",
-    "stylelint-prettier": "latest"
+    "stylelint-prettier": "latest",
+    "reactotron-react-js": "latest",
+    "reactotron-redux": "latest",
+    "reactotron-redux-saga": "latest"
   },
   "scripts": {
     "start": "craco start",

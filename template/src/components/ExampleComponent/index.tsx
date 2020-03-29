@@ -90,6 +90,14 @@ export default function ExampleComponent({ title, color }: Props) {
           <a href="https://github.com/gsoft-inc/craco">craco</a> para poder ter
           os caminhos absolutos a partir da pasta src, ex: ~/components
         </li>
+
+        <li>
+          <span role="img" aria-label="check">
+            ✅
+          </span>{' '}
+          <a href="https://github.com/infinitered/reactotron">Reactotron</a>{' '}
+          para debugar a aplicação e o redux.
+        </li>
       </ul>
     </Container>
   );

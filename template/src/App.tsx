@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { ThemeProvider } from 'styled-components';
 import { PersistGate } from 'redux-persist/integration/react';
 
+import '~/config/Reactotron';
 import Routes from '~/routes';
 import light from '~/theme/light';
 import GlobalStyles from '~/theme/global';
