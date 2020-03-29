@@ -4,7 +4,12 @@ module.exports = {
     es6: true,
     jest: true,
   },
-  extends: ['plugin:@typescript-eslint/recommended', 'airbnb', 'prettier', 'prettier/react'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'airbnb',
+    'prettier',
+    'prettier/react',
+  ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -50,6 +55,8 @@ module.exports = {
     'import/extensions': 'off',
     'arrow-parens': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'error',
   },
   settings: {
     'import/parsers': {

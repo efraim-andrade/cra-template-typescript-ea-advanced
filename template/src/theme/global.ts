@@ -2,10 +2,13 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   * {
-    margin: 0;
-    padding: 0;
-    outline: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    transition: .3s;
+    color: ${({ theme }) => theme.colors.text};
+    outline: 0
   }
 
   *:focus {
@@ -14,14 +17,18 @@ export default createGlobalStyle`
 
   html, body, #root {
     height: 100%;
+
+    /* a cada 1rem será considera 10px */
+    font-size: 62.5%;
   }
 
   body {
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
   }
 
   body, input, button {
-    font: 14px 'Roboto', sans-serif;
+    font: 1.6rem 'Roboto', sans-serif;
   }
 
   a {
