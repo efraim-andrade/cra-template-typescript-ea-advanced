@@ -6,7 +6,6 @@ export default createGlobalStyle`
     padding: 0;
     margin: 0;
 
-    transition: .3s;
     color: ${({ theme }) => theme.colors.text};
     outline: 0
   }
