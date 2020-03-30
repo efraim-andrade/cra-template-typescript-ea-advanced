@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { motion, MotionProps } from 'framer-motion';
 
 export const Container = styled.div`
   width: 100vw;
@@ -14,13 +15,15 @@ export const Container = styled.div`
   > h1 {
     margin-bottom: 24px;
 
-    color: ${({ theme }) => theme.colors.text};
     font-size: 4.8rem;
+    color: ${({ theme }) => theme.colors.text};
 
     > span {
+      margin-left: 1.6rem;
+
       color: #ccc;
-      text-decoration: line-through;
       font-size: 3.2rem;
+      text-decoration: line-through;
     }
   }
 
@@ -51,4 +54,24 @@ export const Container = styled.div`
       }
     }
   }
+`;
+
+export const Message = styled(motion.span)`
+  position: absolute;
+  bottom: 0;
+  right: 200px;
+
+  opacity: 0;
+  font-size: 4.8rem;
+  color: ${({ theme }) => theme.colors.text};
+`;
+
+export const ThatsMe = styled(motion.img).attrs((props: MotionProps) => props)`
+  position: fixed;
+  right: -5rem;
+  bottom: -25rem;
+
+  width: 25rem;
+  height: 25rem;
+  border-radius: 30px;
 `;

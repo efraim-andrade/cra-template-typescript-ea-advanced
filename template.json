@@ -59,7 +59,8 @@
     "stylelint-prettier": "latest",
     "reactotron-react-js": "latest",
     "reactotron-redux": "latest",
-    "reactotron-redux-saga": "latest"
+    "reactotron-redux-saga": "latest",
+    "framer-motion": "latest"
   },
   "scripts": {
     "start": "craco start",

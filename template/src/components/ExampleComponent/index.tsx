@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { Container } from './styles';
+import Me from '~/assets/thats-me.svg';
+
+import { Container, ThatsMe, Message } from './styles';
 
 interface Props {
   title: string;
@@ -11,7 +13,8 @@ export default function ExampleComponent({ title, color }: Props) {
   return (
     <Container color={color}>
       <h1>
-        {title} <span>(testando chamada de API)</span>
+        {title}
+        <span>(testando a API)</span>
       </h1>
 
       <p>O projeto vem com uma série de padrões pré definidos com:</p>
@@ -90,15 +93,23 @@ export default function ExampleComponent({ title, color }: Props) {
           <a href="https://github.com/gsoft-inc/craco">craco</a> para poder ter
           os caminhos absolutos a partir da pasta src, ex: ~/components
         </li>
-
-        <li>
-          <span role="img" aria-label="check">
-            ✅
-          </span>{' '}
-          <a href="https://github.com/infinitered/reactotron">Reactotron</a>{' '}
-          para debugar a aplicação e o redux.
-        </li>
       </ul>
+
+      <Message
+        animate={{ y: -100, opacity: 0.5 }}
+        transition={{ duration: 2, ease: 'easeInOut' }}
+      >
+        iae dev!
+      </Message>
+
+      <ThatsMe
+        src={Me}
+        animate={{ y: -180 }}
+        transition={{
+          duration: 2,
+          ease: 'easeOut',
+        }}
+      />
     </Container>
   );
 }
